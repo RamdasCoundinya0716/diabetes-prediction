@@ -31,4 +31,4 @@ Matplotlib 3.3.4
 Scikit-Learn 0.24.1
 
 ### Link to Docker Image on Docker Hub
-ram0716/diabetes-ml-image:v1
+https://hub.docker.com/r/ram0716/diabetes-ml-image
