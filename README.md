@@ -18,11 +18,11 @@ The Diabetes Prediction ML App is designed to predict the likelihood of a person
     - Open your terminal.
     - Navigate to the project directory.
     - Run the following command to install the required dependencies:
-        pip install -r requirements.txt
+        **pip install -r requirements.txt**
 
 3. **Run the App:**
     - Execute the following command to run the application locally:
-        python flask_app.py
+    - **python flask_app.py**
     - Visit http://127.0.0.1:5000 in your web browser to access the application.
 
 ### Docker Installation:
@@ -31,13 +31,13 @@ The Diabetes Prediction ML App is designed to predict the likelihood of a person
     - Ensure you have Docker installed on your machine.
 
 2. **Pull Docker Image:**
-    - Run the following command to pull the Docker image from Docker Hub:
-      docker pull ram0716/diabetes-prediction:v1
+    - Run the following command to pull the Docker image from Docker Hub:\
+    - **docker pull ram0716/diabetes-prediction:v1**
 
 
 3. **Run Docker Container:**
     - Execute the following command to run the Docker container:
-        docker run -p 5000:5000 ram0716/diabetes-prediction:v1
+    - **docker run -p 5000:5000 ram0716/diabetes-prediction:v1**
     - Visit http://127.0.0.1:5000 in your web browser to access the application.
 
 ### Application Usage:
