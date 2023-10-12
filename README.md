@@ -31,7 +31,7 @@ The Diabetes Prediction ML App is designed to predict the likelihood of a person
     - Ensure you have Docker installed on your machine.
 
 2. **Pull Docker Image:**
-    - Run the following command to pull the Docker image from Docker Hub:\
+    - Run the following command to pull the Docker image from Docker Hub:
     - **docker pull ram0716/diabetes-prediction:v1**
 
 
