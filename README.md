@@ -47,4 +47,66 @@ The Diabetes Prediction ML App is designed to predict the likelihood of a person
 - Click on the "Predict" button to get predictions from the logistic regression, decision tree, random forest classifier, and naive Bayes algorithms.
 - View the predictions and explore the results on the web interface.
 
-That's it! You can now use the Diabetes Prediction ML App to make predictions based on health-related features.
+### Example Outputs:
+
+After entering the health-related features and clicking on "Predict," you'll receive the final predictions. Let's look at some examples:
+
+1. **Output 0 (Normal Male Patient):**
+   - Example Input (Normal Male):
+     - Pregnancies: 0  # Not applicable for males
+     - Glucose: 100
+     - Blood Pressure: 70
+     - Skin Thickness: 22
+     - Insulin: 80
+     - BMI: 24
+     - Diabetes Pedigree Function: 0.25
+     - Age: 30
+   - All Algorithms: Predicts 0
+
+   Interpretation: A prediction of 0 suggests a lower likelihood of diabetes for a normal male individual.
+
+2. **Output 0 (Normal Female with 1 Pregnancy):**
+   - Example Input (Normal Female - 1 Pregnancy):
+     - Pregnancies: 1
+     - Glucose: 110
+     - Blood Pressure: 68
+     - Skin Thickness: 26
+     - Insulin: 75
+     - BMI: 22
+     - Diabetes Pedigree Function: 0.28
+     - Age: 28
+   - All Algorithms: Predicts 0
+
+   Interpretation: A prediction of 0 suggests a lower likelihood of diabetes for a normal female with one pregnancy.
+
+3. **Output 1 (Higher Glucose Level):**
+   - Example Input (Higher Glucose Level):
+     - Pregnancies: 3
+     - Glucose: 170
+     - Blood Pressure: 75
+     - Skin Thickness: 28
+     - Insulin: 120
+     - BMI: 26
+     - Diabetes Pedigree Function: 0.38
+     - Age: 35
+   - All Algorithms: Predicts 1
+
+   Interpretation: A prediction of 1 indicates a higher likelihood of diabetes due to the higher glucose levels.
+
+4. **Output 1 (Higher BMI):**
+   - Example Input (Higher BMI):
+     - Pregnancies: 2
+     - Glucose: 130
+     - Blood Pressure: 80
+     - Skin Thickness: 30
+     - Insulin: 90
+     - BMI: 32
+     - Diabetes Pedigree Function: 0.42
+     - Age: 40
+   - All Algorithms: Predicts 1
+
+   Interpretation: A prediction of 1 suggests a higher likelihood of diabetes due to the elevated BMI.
+
+Feel free to use these examples to illustrate how the model responds to different health-related features and scenarios.
+
+**That's it! You can now use the Diabetes Prediction ML App to make predictions based on health-related features.**
