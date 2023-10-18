@@ -106,7 +106,4 @@ After entering the health-related features and clicking on "Predict," you'll rec
    - All Algorithms: Predicts 1
 
    Interpretation: A prediction of 1 suggests a higher likelihood of diabetes due to the elevated BMI.
-
-Feel free to use these examples to illustrate how the model responds to different health-related features and scenarios.
-
 **That's it! You can now use the Diabetes Prediction ML App to make predictions based on health-related features.**
