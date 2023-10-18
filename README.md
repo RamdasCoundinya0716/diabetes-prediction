@@ -47,12 +47,8 @@ The Diabetes Prediction ML App is designed to predict the likelihood of a person
 - Click on the "Predict" button to get predictions from the logistic regression, decision tree, random forest classifier, and naive Bayes algorithms.
 - View the predictions and explore the results on the web interface.
 
-### Example Outputs:
-
-After entering the health-related features and clicking on "Predict," you'll receive the final predictions. Let's look at some examples:
-
-1. **Output 0 (Normal Male Patient):**
-   - Example Input (Normal Male):
+### Example Inputs you may use: 
+1. **Example Input 1 (Normal Male):**
      - Pregnancies: 0  # Not applicable for males
      - Glucose: 100
      - Blood Pressure: 70
@@ -62,11 +58,9 @@ After entering the health-related features and clicking on "Predict," you'll rec
      - Diabetes Pedigree Function: 0.25
      - Age: 30
    - All Algorithms: Predicts 0
-
    Interpretation: A prediction of 0 suggests a lower likelihood of diabetes for a normal male individual.
 
-2. **Output 0 (Normal Female with 1 Pregnancy):**
-   - Example Input (Normal Female - 1 Pregnancy):
+2. **Example Input 2 (Normal Female - 1 Pregnancy):**
      - Pregnancies: 1
      - Glucose: 110
      - Blood Pressure: 68
@@ -79,8 +73,7 @@ After entering the health-related features and clicking on "Predict," you'll rec
 
    Interpretation: A prediction of 0 suggests a lower likelihood of diabetes for a normal female with one pregnancy.
 
-3. **Output 1 (Higher Glucose Level):**
-   - Example Input (Higher Glucose Level):
+3. **Example Input 3 (Higher Glucose Level):**
      - Pregnancies: 3
      - Glucose: 170
      - Blood Pressure: 75
@@ -93,8 +86,7 @@ After entering the health-related features and clicking on "Predict," you'll rec
 
    Interpretation: A prediction of 1 indicates a higher likelihood of diabetes due to the higher glucose levels.
 
-4. **Output 1 (Higher BMI):**
-   - Example Input (Higher BMI):
+4. **Example Input 4 (Higher BMI):**
      - Pregnancies: 2
      - Glucose: 130
      - Blood Pressure: 80
