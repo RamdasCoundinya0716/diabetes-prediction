@@ -49,7 +49,7 @@ The Diabetes Prediction ML App is designed to predict the likelihood of a person
 
 ### Example Inputs you may use: 
 1. **Example Input 1 (Normal Male):**
-     - Pregnancies: 0  # Not applicable for males
+     - Pregnancies: 0
      - Glucose: 100
      - Blood Pressure: 70
      - Skin Thickness: 22
@@ -98,4 +98,6 @@ The Diabetes Prediction ML App is designed to predict the likelihood of a person
    - All Algorithms: Predicts 1
 
    Interpretation: A prediction of 1 suggests a higher likelihood of diabetes due to the elevated BMI.
+
+   
 **That's it! You can now use the Diabetes Prediction ML App to make predictions based on health-related features.**
