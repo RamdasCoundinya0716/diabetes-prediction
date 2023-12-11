@@ -11,7 +11,7 @@ The Diabetes Prediction ML App is designed to predict the likelihood of a person
 ### Local Installation:
 
 1. **Prerequisites:**
-    - Ensure you have Python version <= 3.11 installed on your machine.
+    - Ensure you have Python version 3.1x installed on your machine.
     - Also, clone this repo to understand code.
 
 2. **Install Dependencies:**
